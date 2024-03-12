@@ -7,7 +7,7 @@ body {
 }
 
 .top-container {
-    padding: 0 300px;
+    padding: 0 200px;
     background-color: #1F2937;
     color: white;
     
@@ -17,7 +17,7 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-bottom: 20px;
+    margin-bottom: 5px;
     font-size: 28px;
     font-weight: 700;
 }
@@ -33,7 +33,7 @@ ul {
     display: flex;
     justify-content: space-between;
     margin-bottom: 10px;
-    height: 250px;
+    height: 200px;
 }
 
 .one-left {
@@ -44,7 +44,7 @@ ul {
 }
 
 .website-title {
-    font-size: 48px;
+    font-size: 36px;
     font-weight: 900;
 }
 
@@ -81,7 +81,6 @@ button.sign-up {
 .body {
     display: flex;   
     flex-direction: column;
-    align-items: center;
 }
 
 .section-two {
@@ -109,6 +108,32 @@ button.sign-up {
 
 .box {
     max-width: 200px;
+}
+
+.section-three {
+    display: flex;
+    flex-direction: column;
+    background-color: #f0f0f0;
+    align-items: center;
+    height: 80px;
+    padding: 20px;
+}
+
+.quote {
+    font-size: 20px;
+    font-style: italic;
+    color: #1F2937;
+    width: 500px;
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+}
+
+.quoter {
+    color: #1F2937;
+    font-weight: bold;
+    text-align: end;
+    margin-right: 8px;
 }
 
 .footer {
